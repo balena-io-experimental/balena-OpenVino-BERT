@@ -1,5 +1,7 @@
 # balena-OpenVino-BERT
 
+![alt text](https://static.wikia.nocookie.net/muppet/images/e/e1/Bert_smile.png/revision/latest/scale-to-width-down/280?cb=20110630173259)
+
 The original application and usage instructions are located here:  [https://github.com/openvinotoolkit/open_model_zoo/blob/master/demos/bert_question_answering_demo/python/README.md](https://github.com/openvinotoolkit/open_model_zoo/blob/master/demos/bert_question_answering_demo/python/README.md)
 
 Open up a terminal via balenaCloud, and try to run this command:

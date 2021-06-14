@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y xfce4 xinit xserver-xorg xserver-xorg-v
 RUN pip3 install numpy scipy pyyaml 
 RUN echo "source /opt/intel/openvino_2021.3.394/bin/setupvars.sh" >> ~/.bashrc
 
-RUN mkdir /opt/intel/openvino_2021.3.394/deployment_tools/open_model_zoo/demos/models && cd /opt/intel/openvino_2021/deployment_tools/tools/model_downloader && ./downloader.py --name bert-large-uncased-whole-word-masking-squad-0001 --output_dir /opt/intel/openvino_2021.3.394/deployment_tools/open_model_zoo/demos/models
+RUN mkdir /opt/intel/openvino_2021.3.394/deployment_tools/open_model_zoo/demos/models && cd /opt/intel/openvino_2021/deployment_tools/tools/model_downloader && ./downloader.py --name bert-small-uncased-whole-word-masking-squad-0001 --output_dir /opt/intel/openvino_2021.3.394/deployment_tools/open_model_zoo/demos/models
 
 CMD ["/bin/bash"]
 
